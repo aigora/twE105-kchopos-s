@@ -116,9 +116,9 @@ float codigoprom(Descuentos x[], int a){
 					break;
 				}
 			}
-			if (fin == 0)
+			if (fin == 0) // Comprobacion de que ningún descuento coincide
 				printf("Ese codigo no es valido\n");
-		}break;
+		}break; 
 		}
 	}
 	return desc;
@@ -126,7 +126,7 @@ float codigoprom(Descuentos x[], int a){
 }
 
 float conttot(Recibo x[], int a){
-	intj;
+	int j;
 	float total=0;
 	
 	for (j = 0; j < a; j++) {
