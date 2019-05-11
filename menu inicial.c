@@ -9,6 +9,17 @@ typedef struct Descuentos{
 	float desc;
 }Descuentos;
 
+typedef struct Recibo{
+	char menu[13]; //Dos opciones : ADULTO o INFANTIL
+	char principal[20]; // Elección tipo de Cachopo
+	char carne[20]: // Elección tipo de carne
+	char guarn[20]; // Elección de guarnición
+	char extra[20[; // Elección de EXTRA de ingredientes
+	char bebiida[20]; // Elección de bebida
+	float preio; 
+}Recibo;
+	
+
 
 char inicio( int a){
 	if (a == 0)
