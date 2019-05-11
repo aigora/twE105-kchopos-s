@@ -16,7 +16,7 @@ typedef struct Recibo{
 	char guarn[20]; // Elección de guarnición
 	char extra[20[; // Elección de EXTRA de ingredientes
 	char bebiida[20]; // Elección de bebida
-	float preio; 
+	float precio; 
 }Recibo;
 	
 
