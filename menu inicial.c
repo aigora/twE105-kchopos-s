@@ -65,9 +65,12 @@ void main() {
 	{ "C300",0.95 },
 	{ "EMPL", 0.50 },
 	{ "JEFE", 0.00 } };
+	
+	system("color 1e");
+	
 	bool cont =true;
 	
-	while (cont) { //Usamos el booleano para salir del progrma, que solo se hará false cuando el cliente esocja la opcion 4
+	while (cont) { //Usamos el booleano para salir del programa, que solo se hará false cuando el cliente esocja la opcion 4
                         //Ponemos a 0 todas las variables, de esta forma, el programa empieza de cero.
 		total = 0; 
 		fin = 0;
