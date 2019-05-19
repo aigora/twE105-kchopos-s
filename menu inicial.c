@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
 #define NUM_COD 5
 
 typedef struct Descuentos{ //ESTRUCTURA para guardar los descuentos
