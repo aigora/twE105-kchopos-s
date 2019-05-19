@@ -4,6 +4,7 @@ Es una aplicacion de un restaurante de comida rapida. En ella, eliges el menú q
 
 ## Integrantes del equipo
 Valeria Hernando Bernabe - @valeriahernandobernabe
+
 Oscar Arrigo Rodriguez - @oscararrigo
 
 
