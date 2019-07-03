@@ -14,9 +14,9 @@ typedef struct Descuentos{ //ESTRUCTURA para guardar los descuentos
 typedef struct Recibo{ //ESTRUCTURA en la cual se guardan todos los elementos seleccionados para luego mostrarlo en la opcion MOSTRAR PEDIDO
 	char menu[13]; //Dos opciones : ADULTO o INFANTIL
 	char principal[20]; // Elección tipo de Cachopo
-	char carne[20]: // Elección tipo de carne
+	char carne[20]; // Elección tipo de carne
 	char guarn[20]; // Elección de guarnición
-	char extra[20[; // Elección de EXTRA de ingredientes
+	char extra[20]; // Elección de EXTRA de ingredientes
 	char bebiida[20]; // Elección de bebida
 	float precio; 
 }Recibo;
